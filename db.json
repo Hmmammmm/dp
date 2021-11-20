@@ -18,7 +18,7 @@
     "post_status": "published",
     "post_id": 5,
     "blog_id": 5,
-    "blog_username": "",
+    "blog_username": "Abbas",
     "blog_avatar": "",
     "blog_avatar_shape": "",
     "blog_title": "",
@@ -79,6 +79,25 @@
       }
     ],
     "replies": [
+      {
+        "blog_avatar": "/storage/imgname2.extension",
+        "blog_avatar_shape": "circle",
+        "blog_username": "radwa-ahmed213",
+        "blog_id": 2,
+        "reply_id": 5,
+        "reply_time": "02-02-2012",
+        "reply_text": "What an amazing post!"
+      },
+      {
+        "blog_avatar": "/storage/imgname2.extension",
+        "blog_avatar_shape": "circle",
+        "blog_username": "radwa-ahmed213",
+        "blog_id": 2,
+        "reply_id": 5,
+        "reply_time": "02-02-2012",
+        "reply_text": "What an amazing post!"
+      }
+      ,
       {
         "blog_avatar": "/storage/imgname2.extension",
         "blog_avatar_shape": "circle",
