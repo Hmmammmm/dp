@@ -148,6 +148,51 @@
   }
 
 }
+ ,
+ 
+"followings":
+{
+  "meta": {
+    "status": "200",
+    "msg": "ok"
+  },
+  "response": {
+    "pagination": {
+      "total": 1,
+      "count": 1,
+      "per_page": 10,
+      "current_page": 1,
+      "total_pages": 1,
+      "first_page_url": true,
+      "last_page_url": 1,
+      "next_page_url": "http://127.0.0.1:8000/api/blogs/check_out_blogs?page=3",
+      "prev_page_url": "http://127.0.0.1:8000/api/blogs/check_out_blogs?page=1"
+    },
+    "followings": [
+      {
+        "blog_avatar": "/storage/imgname2.extension",
+        "blog_avatar_shape": "circle",
+        "blog_username": "radwa-ahmed213",
+        "blog_id": 1032
+      },
+       {
+        "blog_avatar": "/storage/imgname2.extension",
+        "blog_avatar_shape": "circle",
+        "blog_username": "Name1",
+        "blog_id": 1032
+      },
+       {
+        "blog_avatar": "/storage/imgname2.extension",
+        "blog_avatar_shape": "circle",
+        "blog_username": "Name2",
+        "blog_id": 1032
+      }
+    ]
+  }
+}
+
+ 
+
 
 
 }
