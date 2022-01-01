@@ -190,7 +190,51 @@
     ]
   }
 }
+ ,
 
+ "tag/suggesting":
+ {
+  "meta": {
+    "status": "200",
+    "msg": "OK"
+  },
+  "response": {
+    "pagination": {
+      "total": 120,
+      "count": 10,
+      "per_page": 10,
+      "current_page": 2,
+      "total_pages": 12,
+      "first_page_url": false,
+      "last_page_url": 12,
+      "next_page_url": "http://127.0.0.1:8000/api/tag/trending?page=3",
+      "prev_page_url": "http://127.0.0.1:8000/api/tag/trending?page=1"
+    },
+    "tags": [
+      {
+        "tag_description": "books",
+        "tag_image": "",
+        "posts_count": 12,
+        "followed": false,
+        "followers_number": 1026
+      },
+      {
+        "tag_description": "software",
+        "tag_image": "",
+        "posts_count": 15,
+        "followed": true,
+        "followers_number": 1000
+      },
+      {
+        "tag_description": "cmp",
+        "tag_image": "",
+        "posts_count": 120,
+        "followed": false,
+        "followers_number": 1300
+      }
+    ]
+  }
+}
  
 
 
