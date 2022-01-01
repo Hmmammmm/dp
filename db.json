@@ -132,9 +132,7 @@
  ,
 "tag":{
 
-
-
-  "suggesting":{
+"suggesting":{
 
   "meta": {
     "status": "200",
@@ -176,8 +174,28 @@
       }
     ]
   }
-}    
 
+}    
+ ,
+
+
+}
+ ,
+
+
+"follow_tag":{
+  "meta": {
+    "status": "200",
+    "msg": "OK"
+  },
+  "response": {
+    "tags": [
+      {
+        "tag_description": "software",
+        "tag_image": ""
+      }
+    ]
+  }
 
 }
  
