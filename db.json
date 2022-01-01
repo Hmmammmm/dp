@@ -130,7 +130,27 @@
   }
 }
  ,
-"tag":{
+
+
+ "follow_tag":
+ {
+  "meta": {
+    "status": "200",
+    "msg": "OK"
+  },
+  "response": {
+    "tags": [
+      {
+        "tag_description": "software",
+        "tag_image": ""
+      }
+    ]
+  }
+
+}
+ ,
+ 
+ "tag":{
 
 "suggesting":{
 
@@ -176,30 +196,16 @@
   }
 
 }    
- ,
 
 
 }
  ,
-
-
-"follow_tag":{
-  "meta": {
-    "status": "200",
-    "msg": "OK"
-  },
-  "response": {
-    "tags": [
-      {
-        "tag_description": "software",
-        "tag_image": ""
-      }
-    ]
-  }
-
-}
  
 
 
 
 }
+
+
+
+
